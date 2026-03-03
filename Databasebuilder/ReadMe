@@ -1,0 +1,9 @@
+The file contained in this folder called database?builder.py is a python file that builds a database of PhysCell simulations varying the values of their metabolic parameters according to SOBOL sequences.
+The user has to specify the value of different variables before executing the file>
+  1. Number of parameters to vary//line 627
+  2. Number of simulations of the database// line 630
+  3. Path of the PhysiCell folder//line 624
+  4. Number of simulations with each parameter combination//line762
+  5. Range of each parameter//lines 646 to 665
+In addition to that, all the parameters to be optimized have to be set to 0.0 in their demo.xml beofre the start of the simulation.
+The results are created in the PhysiCell folder in a series of txt files.
